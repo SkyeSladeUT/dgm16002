@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: Horse05.ma
-//Last modified: Fri, Oct 27, 2017 10:49:35 AM
+//Last modified: Fri, Oct 27, 2017 10:49:58 AM
 //Codeset: 1252
 requires maya "2017ff05";
 currentUnit -l centimeter -a degree -t film;
@@ -13,7 +13,7 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "257346C2-4728-3142-1B5E-4CABA0C528E6";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -5.1553871478062181 7.9719759003394213 6.3031421316641092 ;
+	setAttr ".t" -type "double3" -5.669627481608031 7.912091085355331 6.2305240989828832 ;
 	setAttr ".r" -type "double3" 2.0616473134438489 4672.2000000041353 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "8F0F4173-42C7-6878-BBCD-D2BD8DD66C51";
